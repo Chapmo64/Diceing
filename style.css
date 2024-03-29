@@ -5,6 +5,10 @@
     font-weight: bold;
 }
 
+h1{
+    font-size: 2em;
+}
+
 button{
     font-size: 1.5rem;
     border-radius: 10px;
@@ -27,4 +31,14 @@ input{
     width: 150px;
     text-align: center;
     font-weight: bold;
+}
+
+#diceresult{
+    margin: 25px;
+}
+
+#diceimgs img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
 }
