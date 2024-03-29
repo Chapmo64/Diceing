@@ -10,8 +10,11 @@ function rolldice(){
     for(let i=0; i<numofdice;i++){
         const value = Math.floor(Math.random()*6) + 1;
         values.push(value);
-        imgs.push(`<img scr="dice_images/${value}.png">`);
+        imgs.push(`<img src="dice_images/${value}.png">`);
+
+        console.log(imgs)
     }
 
     diceresult.textContent = `Dice: ${values.join(", ")}`;
+    diceimg.innerHTML = imgs.join(" ");
 }
